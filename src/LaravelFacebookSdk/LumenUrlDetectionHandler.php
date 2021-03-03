@@ -1,9 +1,9 @@
-<?php namespace blacklotus1998\LaravelFacebookSdk;
+<?php namespace Blacklotus\LaravelFacebookSdk;
 
 use Facebook\Url\UrlDetectionInterface;
 use Laravel\Lumen\Routing\UrlGenerator;
 
-class LumenUrlDetectionHandler implements UrlDetectionInterface
+class umenUrlDetectionHandler implements UrlDetectionInterface
 {
     /**
      * @var UrlGenerator

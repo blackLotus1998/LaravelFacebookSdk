@@ -1,4 +1,4 @@
-<?php namespace blacklotus1998\LaravelFacebookSdk;
+<?php namespace Blacklotus\LaravelFacebookSdk;
 
 use Illuminate\Session\Store as Session;
 use Facebook\PersistentData\PersistentDataInterface;

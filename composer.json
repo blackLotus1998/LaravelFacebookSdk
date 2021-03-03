@@ -25,17 +25,21 @@
   },
   "autoload": {
     "psr-4": {
-      "blacklotus1998\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk"
+      "blacklotus1998\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk",
+      "Blacklotus\\LaravelFacebookSdk\\Test": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "blacklotus1998\\LaravelFacebookSdk\\LaravelFacebookSdkServiceProvider"
+        "Blacklotus\\LaravelFacebookSdk\\LaravelFacebookSdkServiceProvider"
       ],
       "aliases": {
-        "Facebook": "blacklotus1998\\LaravelFacebookSdk\\FacebookFacade"
+        "Facebook": "Blacklotus\\LaravelFacebookSdk\\FacebookFacade"
       }
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
   }
 }

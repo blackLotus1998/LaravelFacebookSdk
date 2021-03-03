@@ -1,9 +1,11 @@
-<?php namespace blacklotus1998\LaravelFacebookSdk;
+<?php
+
+namespace Blacklotus\LaravelFacebookSdk;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \blacklotus1998\LaravelFacebookSdk\LaravelFacebookSdk
+ * @see \Blacklotus\LaravelFacebookSdk\LaravelFacebookSdk
  */
 class FacebookFacade extends Facade
 {

@@ -1,4 +1,4 @@
-<?php namespace blacklotus1998\LaravelFacebookSdk;
+<?php namespace Blacklotus\LaravelFacebookSdk;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -38,9 +38,6 @@ class LaravelFacebookSdkServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        if ($this->isLumen()) {
-            $this->app->configure('laravel-facebook-sdk');
-        }
         $this->mergeConfigFrom(__DIR__.'/../config/laravel-facebook-sdk.php', 'laravel-facebook-sdk');
 
         // Main Service
@@ -73,10 +70,5 @@ class LaravelFacebookSdkServiceProvider extends ServiceProvider
         return [
             'blacklotus1998\LaravelFacebookSdk\LaravelFacebookSdk',
         ];
-    }
-
-    private function isLumen()
-    {
-        return is_a(\app(), 'Laravel\Lumen\Application');
     }
 }

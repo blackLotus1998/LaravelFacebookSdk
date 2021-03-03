@@ -1,7 +1,9 @@
-<?php namespace blacklotus1998\LaravelFacebookSdk;
+<?php namespace Blacklotus\LaravelFacebookSdk;
 
+use Facebook\Authentication\AccessToken;
 use Illuminate\Contracts\Config\Repository as Config;
 use Facebook\Facebook;
+use Illuminate\Contracts\Routing\UrlGenerator;
 
 class LaravelFacebookSdk extends Facebook
 {
@@ -11,7 +13,7 @@ class LaravelFacebookSdk extends Facebook
     protected $config_handler;
 
     /**
-     * @var \Illuminate\Contracts\Routing\UrlGenerator|\Laravel\Lumen\Routing\UrlGenerator
+     * @var UrlGenerator
      */
     protected $url;
 
@@ -22,7 +24,7 @@ class LaravelFacebookSdk extends Facebook
 
     /**
      * @param Config $config_handler
-     * @param \Illuminate\Contracts\Routing\UrlGenerator|\Laravel\Lumen\Routing\UrlGenerator $url
+     * @param UrlGenerator $url
      * @param array $config
      */
     public function __construct(Config $config_handler, $url, array $config)
@@ -102,7 +104,7 @@ class LaravelFacebookSdk extends Facebook
      * Get an access token from a redirect.
      *
      * @param string $callback_url
-     * @return \Facebook\Authentication\AccessToken|null
+     * @return AccessToken|null
      */
     public function getAccessTokenFromRedirect($callback_url = '')
     {
