@@ -1,24 +1,11 @@
 # Laravel Facebook SDK
 
-[![Build Status](https://img.shields.io/travis/SammyK/LaravelFacebookSdk.svg)](https://travis-ci.org/SammyK/LaravelFacebookSdk)
-[![Latest Stable Version](https://img.shields.io/packagist/v/sammyk/laravel-facebook-sdk.svg?maxAge=2592000)](https://packagist.org/packages/sammyk/laravel-facebook-sdk)
-[![Total Downloads](https://img.shields.io/packagist/dt/sammyk/laravel-facebook-sdk.svg)](https://packagist.org/packages/sammyk/laravel-facebook-sdk)
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/SammyK/LaravelFacebookSdk/blob/master/LICENSE)
+[![Build Status](https://travis-ci.com/blackLotus1998/LaravelFacebookSdk.svg?branch=3.0)](https://travis-ci.com/blackLotus1998/LaravelFacebookSdk)
+[![Latest Stable Version](https://img.shields.io/packagist/v/blacklotus1998/laravel-facebook-sdk.svg)](https://packagist.org/packages/blacklotus1998/laravel-facebook-sdk)
+[![Total Downloads](https://img.shields.io/packagist/dt/blacklotus1998/laravel-facebook-sdk.svg)](https://packagist.org/packages/sammyk/laravel-facebook-sdk)
 
 
-A fully unit-tested package for easily integrating the [Facebook SDK v5](https://developers.facebook.com/docs/php/gettingstarted/5.0.0) into Laravel and Lumen 5.0, 5.1, 5.2, & 5.3.
-
-----
-
-**This is package for Laravel and Lumen 5.0, 5.1, 5.2, & 5.3**
-
-[![Laravel 5](http://sammyk.s3.amazonaws.com/open-source/laravel-facebook-sdk/laravel-5.png)](http://laravel.com/docs)
-
-[![Lumen 5](http://sammyk.s3.amazonaws.com/open-source/laravel-facebook-sdk/lumen-5.png)](https://lumen.laravel.com/docs)
-
-- _For Laravel 4.2, [see the 1.3 branch](https://github.com/SammyK/LaravelFacebookSdk/tree/1.3)._
-
-----
+A fully unit-tested package for easily integrating the [Facebook SDK v5](https://developers.facebook.com/docs/php/gettingstarted/5.0.0) into Laravel 6.0, 7.0, 8.0.
 
 - [Installation](#installation)
 - [User Login From Redirect Example](#user-login-from-redirect-example)
