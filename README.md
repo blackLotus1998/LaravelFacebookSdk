@@ -884,18 +884,3 @@ The tests are written with `phpunit`. You can run the tests from the root of the
 ``` bash
 $ ./vendor/bin/phpunit
 ```
-
-
-## Contributing
-
-Please see [CONTRIBUTING](https://github.com/SammyK/LaravelFacebookSdk/blob/master/CONTRIBUTING.md) for details.
-
-
-## Credits
-
-This package is maintained by [Sammy Kaye Powers](https://github.com/SammyK). See a [full list of contributors](https://github.com/SammyK/LaravelFacebookSdk/contributors).
-
-
-## License
-
-The MIT License (MIT). Please see [License File](https://github.com/SammyK/LaravelFacebookSdk/blob/master/LICENSE) for more information.
