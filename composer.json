@@ -25,8 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Blacklotus\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk",
-      "Blacklotus\\LaravelFacebookSdk\\Test": "tests"
+      "Blacklotus\\LaravelFacebookSdk\\": "src/LaravelFacebookSdk"
     }
   },
   "extra": {
